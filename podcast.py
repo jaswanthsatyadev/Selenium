@@ -26,7 +26,7 @@ for podcast in podcast_cards:
         print("All 4 Episodes Found.")
 
     else:
-        print(f"Only" {len(episode_containers)}  "Episodes Found.")
+        print(f"Only {len(episode_containers)}  Episodes Found.")
 
     # go back to home page
     back_button = browser.find_element(By.XPATH, "//button[contains(text(),'Back')]")
